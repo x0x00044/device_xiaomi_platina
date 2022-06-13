@@ -61,6 +61,9 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/flash_super_dummy.sh:install/bin/flash_super_dummy.sh
+
 # FM
 BOARD_HAVE_QCOM_FM := false
 

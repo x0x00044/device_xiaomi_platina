@@ -63,6 +63,9 @@ BOARD_PLATINA_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-08-01
 
