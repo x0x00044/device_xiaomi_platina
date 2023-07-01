@@ -30,10 +30,6 @@ DEVICE_PATH := device/xiaomi/platina
 # Assert
 TARGET_OTA_ASSERT_DEVICE := platina
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2280
-TARGET_SCREEN_WIDTH := 1080
-
 # Display
 TARGET_SCREEN_DENSITY := 440
 
